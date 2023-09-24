@@ -333,6 +333,26 @@ int forge_version_selection_1_19() {
     printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
+int forge_version_selection_1_18() {
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.18.2");
+    printf ("2: 1.18.1");
+    printf ("3: 1.18");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int forge_version_selection_1_17() {
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.17.1");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
 
 
 

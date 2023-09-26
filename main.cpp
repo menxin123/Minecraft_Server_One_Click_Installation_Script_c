@@ -16,9 +16,12 @@ int main(){
 //代码部分
 
 //清屏部分
-int clear() {
-    system("clear");
+   int clear() {
+#ifdef _WIN32
     system("cls");
+#else
+    system("clear");
+#endif
     return 0;
 }
 
@@ -32,14 +35,8 @@ int Dividing_line() {
     return 0;
 }
 
-//选择部分
-
+//菜单选择部分
 //核心选择部分
-
-
-//菜单显示部分
-
-//主菜单核心选择部分
 int main_menu() {
     printf ("请选择服务器核心\n");
     int up = Dividing_line();
@@ -308,6 +305,8 @@ int paper_version_series_II() {
 
 
 //三级菜单版本选择部分
+
+//三级菜单下载部分
 
 //forge版本选择
 int forge_version_selection_1_20() {

@@ -23,7 +23,6 @@ int clear() {
 }
 
 
-
 //分割线==部分
 int Dividing_line() {
     for (int i = 0; i < 20; i++) {
@@ -39,6 +38,7 @@ int Dividing_line() {
 
 
 //菜单显示部分
+
 //主菜单核心选择部分
 int main_menu() {
     printf ("请选择服务器核心\n");
@@ -355,52 +355,184 @@ int forge_version_selection_1_17() {
 }
 int forge_version_selection_1_16() {
     int removals = clear();
+    printf ("请选择服务器核心版本\n");
+    int up = Dividing_line();
+    printf ("1: 1.16.5\n");
+    printf ("2: 1.16.4\n");
+    printf ("3: 1.16.3\n");
+    printf ("4: 1.16.2\n");
+    printf ("5: 1.16.1\n");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int forge_version_selection_1_15() {
+    int removals = clear();
+    printf ("请选择服务器核心版本\n");
+    int up = Dividing_line();
+    printf ("1: 1.15.2\n");
+    printf ("2: 1.15.1\n");
+    printf ("3: 1.15\n");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int forge_version_selection_1_14() {
+    int removals = clear();
+    printf ("请选择服务器核心版本\n");
+    int up = Dividing_line();
+    printf ("1: 1.14.4\n");
+    printf ("2: 1.14.3\n");
+    printf ("3: 1.14.2\n");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int forge_version_selection_1_13() {
+    int removals = clear();
+    printf ("请选择服务器核心版本\n");
+    int up = Dividing_line();
+    printf ("1: 1.13.2\n");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int forge_version_selection_1_12() {
+    int removals = clear();
+    printf ("请选择服务器核心版本\n");
+    int up = Dividing_line();
+    printf ("1: 1.12.2\n");
+    printf ("2: 1.12.1\n");
+    printf ("3: 1.12\n");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int forge_version_selection_1_11() {
+    int removals = clear();
+    printf ("请选择服务器核心版本\n");
+    int up = Dividing_line();
+    printf ("1: 1.11.2\n");
+    printf ("2: 1.11\n");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int forge_version_selection_1_10() {
+    int removals = clear();
+    printf ("请选择服务器核心版本\n");
+    int up = Dividing_line();
+    printf ("1: 1.10.2\n");
+    printf ("2: 1.10\n");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int forge_version_selection_1_9() {
+    int removals = clear();
+    printf ("请选择服务器核心版本\n");
+    int up = Dividing_line();
+    printf ("1: 1.9.4\n");
+    printf ("2: 1.9\n");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int forge_version_selection_1_8() {
+    int removals = clear();
+    printf ("按下对应数字按键以继续,输入t退出\n");
+    int up = Dividing_line();
+    printf ("1: 1.8.9\n");
+    printf ("2: 1.8.8\n");
+    printf ("3: 1.8\n");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+
+//fabric版本选择
+int fabric_version_selection_1_20() {
+    int removals = clear();
     printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.20.1");
+    printf ("2: 1.20");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int fabric_version_selection_1_19() {
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.19.4");
+    printf ("2: 1.19.3");
+    printf ("3: 1.19.2");
+    printf ("4: 1.19.1");
+    printf ("5: 1.19");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int fabric_version_selection_1_18() {
+    int removals = clear();
+    printf ("按下对应数字按键以继续,输入t退出");
+    int up = Dividing_line();
+    printf ("1: 1.18.2");
+    printf ("2: 1.18.1");
+    printf ("3: 1.18");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int fabric_version_selection_1_17() {
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.17.1");
+    printf ("2: 1.17");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
+    return 0;
+}
+int fabric_version_selection_1_16() {
+    int removals = clear();
+    printf ("按下对应数字按键以继续,输入t退出");
     int up = Dividing_line();
     printf ("1: 1.16.5");
     printf ("2: 1.16.4");
     printf ("3: 1.16.3");
     printf ("4: 1.16.2");
     printf ("5: 1.16.1");
+    printf ("6: 1.16");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续");
+    return 0;
+}
+int fabric_version_selection_1_15() {
+    int removals = clear();
+    printf ("按下对应数字按键以继续,输入t退出");
+    int up = Dividing_line();
+    printf ("1: 1.15.2");
+    printf ("2: 1.15.1");
+    printf ("3: 1.15");
     int down = Dividing_line();
     printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
-int forge_version_selection_1_15() {
-
+int fabric_version_selection_1_14() {
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.14.4");
+    printf ("2: 1.14.3");
+    printf ("3: 1.14.2");
+    printf ("4: 1.14.1");
+    printf ("5: 1.14");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
-int forge_version_selection_1_14() {
-
-    return 0;
-}
-int forge_version_selection_1_13() {
-
-    return 0;
-}
-int forge_version_selection_1_12() {
-
-    return 0;
-}
-int forge_version_selection_1_11() {
-
-    return 0;
-}
-int forge_version_selection_1_10() {
-
-    return 0;
-}
-int forge_version_selection_1_9() {
-
-    return 0;
-}
-int forge_version_selection_1_8() {
-
-    return 0;
-}
-
-
-
 
 
 

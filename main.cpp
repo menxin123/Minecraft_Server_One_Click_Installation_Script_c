@@ -305,7 +305,6 @@ int paper_version_series_II() {
 
 
 //三级菜单版本选择部分
-
 //三级菜单下载部分
 
 //forge版本选择
@@ -535,212 +534,571 @@ int fabric_version_selection_1_14() {
 
 //bukkit版本选择
 int bukkit_version_selection_1_20() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本\n");
+    int up = Dividing_line();
+    printf ("1: 1.20.1\n");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_19() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.19.4\n");
+    printf ("2: 1.19.3\n");
+    printf ("3: 1.19.2\n");
+    printf ("4: 1.19.1\n");
+    printf ("5: 1.19");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_18() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.18.2");
+    printf ("2: 1.18.1");
+    printf ("3: 1.18");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_17() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.17.1");
+    printf ("2: 1.17");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_16() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.16.5");
+    printf ("2: 1.16.4");
+    printf ("4: 1.16.3");
+    printf ("5: 1.16.2");
+    printf ("6: 1.16.1");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_15() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.15.2");
+    printf ("2: 1.15.1");
+    printf ("3: 1.15");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_14() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.14.4");
+    printf ("2: 1.14.3");
+    printf ("3: 1.14.2");
+    printf ("4: 1.14.1");
+    printf ("5: 1.14");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_13() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.13.2");
+    printf ("2: 1.13.1");
+    printf ("3: 1.13");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_12() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.12.2");
+    printf ("2: 1.12.1");
+    printf ("3: 1.12");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_11() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.11.2");
+    printf ("2: 1.11.1");
+    printf ("3: 1.11");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_10() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.10.2");
+    printf ("2: 1.10");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_9() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.9.4");
+    printf ("2: 1.9.2");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_8() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.8.8");
+    printf ("2: 1.8.7");
+    printf ("3: 1.8.6");
+    printf ("4: 1.8.5");
+    printf ("5: 1.8.4");
+    printf ("6: 1.8.3");
+    printf ("7: 1.8");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_7() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.7.10");
+    printf ("2: 1.7.9");
+    printf ("3: 1.7.8");
+    printf ("4: 1.7.5");
+    printf ("5: 1.7.2");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_6() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.6.4");
+    printf ("2: 1.6.2");
+    printf ("3: 1.6.1");
+    int down = Dividing_line();
     return 0;
 }
-
 int bukkit_version_selection_1_5() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.5.2");
+    printf ("2: 1.5.1");
+    printf ("3: 1.5");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_4() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.5.2");
+    printf ("2: 1.5.1");
+    printf ("3: 1.5");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_3() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.3.2");
+    printf ("2: 1.3.1");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_2() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.2.5");
+    printf ("2: 1.2.4");
+    printf ("3: 1.2.3");
+    printf ("4: 1.2.2");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_1() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.1");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int bukkit_version_selection_1_0() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.0.0");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 
 //spigot版本选择
 int spigot_version_selection_1_20() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.20.1");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_19() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.19.4");
+    printf ("2: 1.19.3");
+    printf ("3: 1.19.2");
+    printf ("4: 1.19.1");
+    printf ("5: 1.19");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_18() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.18.2");
+    printf ("2: 1.18.1");
+    printf ("3: 1.18");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_17() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.17.1");
+    printf ("2: 1.17");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_16() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.16.5");
+    printf ("1: 1.16.4");
+    printf ("1: 1.16.3");
+    printf ("1: 1.16.2");
+    printf ("2: 1.16.1");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_15() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.15.2");
+    printf ("1: 1.15.1");
+    printf ("2: 1.15");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_14() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.14.4");
+    printf ("1: 1.14.3");
+    printf ("1: 1.14.2");
+    printf ("1: 1.14.1");
+    printf ("2: 1.14");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_13() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.13.2");
+    printf ("2: 1.13.1");
+    printf ("3: 1.13");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_12() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.12.2");
+    printf ("2: 1.12.1");
+    printf ("3: 1.12");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_11() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.11.2");
+    printf ("2: 1.11.1");
+    printf ("3: 1.11");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_10() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.10.2");
+    printf ("2: 1.10");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_9() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.9.4");
+    printf ("2: 1.9.2");
+    printf ("3: 1.9");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_8() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.8.8");
+    printf ("2: 1.8.7");
+    printf ("3: 1.8.6");
+    printf ("4: 1.8.5");
+    printf ("5: 1.8.4");
+    printf ("6: 1.8.3");
+    printf ("7: 1.8");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_7() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.7.10");
+    printf ("1: 1.7.9");
+    printf ("1: 1.7.8");
+    printf ("1: 1.7.5");
+    printf ("1: 1.7.2");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_6() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.6.4");
+    printf ("2: 1.6.2");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_5() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.5.2");
+    printf ("2: 1.5.1");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int spigot_version_selection_1_4() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.4.7");
+    printf ("2: 1.4.6");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 
 //paper
 int paper_version_selection_1_20() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.20.1");
+    printf ("2: 1.20");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_19() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.19.4");
+    printf ("2: 1.19.3");
+    printf ("3: 1.19.2");
+    printf ("4: 1.19.1");
+    printf ("5: 1.19");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_18() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.18.2");
+    printf ("2: 1.18.1");
+    printf ("3: 1.18");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_17() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.17.1");
+    printf ("2: 1.17");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_16() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.16.5");
+    printf ("1: 1.16.4");
+    printf ("1: 1.16.3");
+    printf ("1: 1.16.2");
+    printf ("2: 1.16.1");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_15() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.15.2");
+    printf ("1: 1.15.1");
+    printf ("2: 1.15");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_14() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.14.4");
+    printf ("1: 1.14.3");
+    printf ("1: 1.14.2");
+    printf ("1: 1.14.1");
+    printf ("2: 1.14");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_13() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.13.2");
+    printf ("2: 1.13.1");
+    printf ("3: 1.13");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_12() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.12.2");
+    printf ("2: 1.12.1(出现问题官方端无法正常部署，请勿使用);");
+    printf ("3: 1.12(出现问题官方端无法正常部署，请勿使用);");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_11() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.11.2");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_10() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.10.2");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_9() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.9.4");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 int paper_version_selection_1_8() {
-
+    int removals = clear();
+    printf ("请选择服务器核心版本");
+    int up = Dividing_line();
+    printf ("1: 1.8.8");
+    int down = Dividing_line();
+    printf ("按下对应数字按键以继续,输入t退出");
     return 0;
 }
 

@@ -31,8 +31,17 @@ int Dividing_line() {
 }
 
 //菜单选择部分
+int Main_Menu_Selection() {
+    switch (main_menu()) {
+        case 1:
+            main_menu();
+            break;
 
-//核心选择部分
+
+    }
+    return 0;
+}
+//核心菜单选择部分
 int main_menu() {
     clear();
     printf ("请选择服务器核心\n");
